@@ -43,11 +43,11 @@ const App = () => {
     },
   ]
   return (
-    <div className='relative'>
+    <div className='relative bg-[#fff]'>
       <HeroSection/>
       <section className='relative py-14 px-3'>
         <h1 className='font-CantoraOne text-xl text-greenPrimary text-center drop-shadow-md mb-3 px-5'>Saatnya Liburan Hemat Dengan Beralih ke Penginapan Pilihan Keluarga</h1>
-        <p className='text-center font-Brawler text-sm mb-14 px-7'>Penginapan keluarga adalah pilihan yang tepat untuk menjadi tempat istirahat keluarga anda saat liburan karena banyak sekali keuntungan yang bisa keluarga anda dapatkan yang belum tentu didapat saat memilih penginapan lain</p>
+        <p className='text-center font-Brawler text-sm mb-14 px-7 text-[#000]'>Penginapan keluarga adalah pilihan yang tepat untuk menjadi tempat istirahat keluarga anda saat liburan karena banyak sekali keuntungan yang bisa keluarga anda dapatkan yang belum tentu didapat saat memilih penginapan lain</p>
         <div className="grid grid-cols-2 items-center justify-items-center">
         {
           fiturs.map((fitur, i) => (
@@ -75,7 +75,7 @@ const App = () => {
             <Photo />
           </div>
 
-          <p className='px-7 text-xs lg:text-base text-center font-Brawler'>Din House adalah penginapan keluarga yang bertemakan rumah klasik yang sampai saat ini sudah terletak di dua tempat yaitu di Jimbaran dan jembrana Bali penginapan ini memberikan kesan menginap yang berbeda, dengan memberikan nuansa klasik dan juga nyaman sehingga siapapun yang menginap  disini akan betah.</p>
+          <p className='px-7 text-xs lg:text-base text-center text-[#000] font-Brawler'>Din House adalah penginapan keluarga yang bertemakan rumah klasik yang sampai saat ini sudah terletak di dua tempat yaitu di Jimbaran dan jembrana Bali penginapan ini memberikan kesan menginap yang berbeda, dengan memberikan nuansa klasik dan juga nyaman sehingga siapapun yang menginap  disini akan betah.</p>
       </div>
       <Location />
       <Fasilitas />

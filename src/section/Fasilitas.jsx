@@ -54,11 +54,11 @@ const Fasilitas = () => {
             <div key={i} className="flex justify-between p-3 lg:w-2/3 mx-auto lg:mt-20">
                 <div>
                     <h1 className='text-3xl text-error font-CantoraOne'>Rp. {doc.harga_jimbaran}</h1>
-                    <h1 className='font-CantoraOne text-xl line-through text-base-content/70'>Rp. {doc.diskon_jimbaran}</h1>
+                    <h1 className='font-CantoraOne text-xl line-through text-[#000]/70'>Rp. {doc.diskon_jimbaran}</h1>
                 </div>
                 <div>
                     <h1 className='text-3xl text-error font-CantoraOne'>Rp. {doc.harga_jembrana}</h1>
-                    <h1 className='font-CantoraOne text-xl line-through text-base-content/70'>Rp. {doc.diskon_jembrana}</h1>
+                    <h1 className='font-CantoraOne text-xl line-through text-[#000]/70'>Rp. {doc.diskon_jembrana}</h1>
                 </div>
             </div>
         ))}

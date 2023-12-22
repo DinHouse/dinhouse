@@ -44,8 +44,8 @@ const Location = () => {
       <div className='relative h-40 lg:h-72'>
         <img src={BG} alt="bg" className='absolute w-full'/>
         <div className="text-center absolute w-full my-auto mt-4 lg:mt-32">
-            <h2 className='font-Sacramento text-4xl text-base-100 drop-shadow-md'>Lokasi</h2>
-            <h1 className='font-CantoraOne text-5xl text-base-100 drop-shadow-md'>DIN HOUSE</h1>
+            <h2 className='font-Sacramento text-4xl text-[#fff] drop-shadow-md'>Lokasi</h2>
+            <h1 className='font-CantoraOne text-5xl text-[#fff] drop-shadow-md'>DIN HOUSE</h1>
         </div>
       </div>
       <div className="grid grid-cols-2 justify-items-center">
@@ -59,9 +59,9 @@ const Location = () => {
             <div className="w-28 lg:w-44 mx-auto text-center bg-greenPrimary">
               {ImageJimbaran && 
               <a href={ImageJimbaran.maps} target='_blank'>
-                <img src={IconLocation} alt="Icon" className='bg-base-100 p-5 rounded-full mx-auto mb-3 -mt-9 relative z-20 animate-bounce'/>
+                <img src={IconLocation} alt="Icon" className='bg-[#fff] p-5 rounded-full mx-auto mb-3 -mt-9 relative z-20 animate-bounce'/>
               </a>}
-              <h3 className='font-Brawler text-base-100 drop-shadow-md text-lg'>Jimbaran<br />Bali</h3>
+              <h3 className='font-Brawler text-[#fff] drop-shadow-md text-lg'>Jimbaran<br />Bali</h3>
             </div>
           </div>
         </div>
@@ -75,10 +75,10 @@ const Location = () => {
             <div className="w-28 lg:w-44 mx-auto text-center bg-greenPrimary">
               {ImageJembrana && 
                 <a href={ImageJembrana.maps} target='_blank'>
-                  <img src={IconLocation} alt="Icon" className='bg-base-100 p-5 rounded-full mx-auto mb-3 -mt-9 relative z-20 animate-bounce'/>
+                  <img src={IconLocation} alt="Icon" className='bg-[#fff] p-5 rounded-full mx-auto mb-3 -mt-9 relative z-20 animate-bounce'/>
                 </a>
               }
-              <h3 className='font-Brawler text-base-100 drop-shadow-md text-lg'>Jembrana<br />Bali</h3>
+              <h3 className='font-Brawler text-[#fff] drop-shadow-md text-lg'>Jembrana<br />Bali</h3>
             </div>
           </div>
         </div>
