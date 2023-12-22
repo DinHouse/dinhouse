@@ -102,22 +102,22 @@ const Booking = () => {
                 <input value={namaPenginap} onChange={e=> setNamaPenginap(e.target.value)} type="text" placeholder='Nama Penginap' className='outline-none ms-3 w-full' required/>
             </div>
             <div className="bg-[#fff] rounded-md overflow-hidden">
-                <p className='text-start mb-2 text-base font-Brawler px-6 pt-3'>Tanggal Masuk</p>
-                <div className="flex bg-base-100 px-6 pb-3">
+                <p className='text-start mb-2 text-[#000]/70 font-Brawler px-6 pt-3'>Tanggal Masuk</p>
+                <div className="flex bg-[#fff] px-6 pb-3">
                     <img src={Schedule} alt="Schedule" className='scale-105'/>
-                    <input value={tanggalMasuk} onChange={e=> setTanggalMasuk(e.target.value)} type="date" placeholder='Tanggal Keluar' className='ms-3 w-full outline-none' required/>
+                    <input value={tanggalMasuk} onChange={e=> setTanggalMasuk(e.target.value)} type="date" placeholder='Tanggal Keluar' className='ms-3 w-full outline-none bg-[#fff]' required/>
                 </div>
             </div>
             <div className="bg-[#fff] rounded-md overflow-hidden">
-                <p className='text-start mb-2 text-base font-Brawler px-6 pt-3'>Tanggal Keluar</p>
-                <div className="flex bg-base-100 px-6 pb-3">
+                <p className='text-start mb-2 text-[#000]/70 font-Brawler px-6 pt-3'>Tanggal Keluar</p>
+                <div className="flex bg-[#fff] px-6 pb-3">
                     <img src={Schedule} alt="Schedule" className='scale-105'/>
-                    <input value={tanggalKeluar} onChange={e=> setTanggalKeluar(e.target.value)} type="date" placeholder='Tanggal Keluar' className='ms-3 w-full outline-none' required/>
+                    <input value={tanggalKeluar} onChange={e=> setTanggalKeluar(e.target.value)} type="date" placeholder='Tanggal Keluar' className='ms-3 w-full outline-none bg-[#fff]' required/>
                 </div>
             </div>
             <div className="flex bg-[#fff] input">
                 <img src={Home} alt="Home" className='scale-75'/>
-                <select value={penginapan} onChange={e=> setPenginapan(e.target.value)} className='w-full ms-3 outline-none'>
+                <select value={penginapan} onChange={e=> setPenginapan(e.target.value)} className='w-full ms-3 outline-none bg-[#fff]'>
                     <option selected disabled value="">Pilih Penginapan</option>
                     {
                         discount.priceList && discount.priceList.map((price, i) => (
@@ -128,11 +128,11 @@ const Booking = () => {
             </div>
             <div className="flex bg-[#fff] input">
                 <img src={Team} alt="Team" className='scale-75'/>
-                <input value={jumlahPenginap} onChange={e=> setJumlahPenginap(e.target.value)} type="number" placeholder='Jumlah Pengunjung' className='outline-none ms-3 w-full' required/>
+                <input value={jumlahPenginap} onChange={e=> setJumlahPenginap(e.target.value)} type="number" placeholder='Jumlah Pengunjung' className='outline-none ms-3 w-full bg-[#fff]' required/>
             </div>
             <div className="flex bg-[#fff] input">
                 <img src={Payment} alt="Payment" className='scale-75'/>
-                <select value={metodePembayaran} onChange={e=> setMetodePembayaran(e.target.value)} className='w-full ms-3 outline-none'>
+                <select value={metodePembayaran} onChange={e=> setMetodePembayaran(e.target.value)} className='w-full ms-3 outline-none bg-[#fff]'>
                     <option selected disabled value="">Metode Pembayaran</option>
                     <option className='text-xs' value="Transfer BANK">Transfer BANK</option>
                     <option className='text-xs' value="COD">COD</option>
